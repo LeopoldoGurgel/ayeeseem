@@ -20,8 +20,13 @@
     display: flex;
 }
 
-.slogan img {
+#slogan {
     width: 100%;
+    display: none;
+}
+
+#largeBanner {
+    display: none;
 }
 
 .flex {
@@ -255,18 +260,51 @@ button {
       max-width: 1300px; 
       font-size: 1.3em;
     }
+
+    #smallBanner {
+        display: none;
+    }
+
+    #largeBanner{
+        display: block;
+    }
+    #slogan {
+        display: block;
+    }
   }
 
-@media (max-width: 1000px) {
+@media (max-width: 1300px) {
     .proj {
         width: 45%;
     }
     .projTitle{
         font-size: 1em;
     }
+
+    #smallBanner {
+        display: none;
+    }
+
+    #largeBanner{
+        display: block;
+    }
+    #slogan {
+        display: none;
+    }
 }
 
 @media (max-width: 700px) {
+
+        #smallBanner {
+        display: block;
+    }
+
+    #largeBanner{
+        display: none;
+    }
+    #slogan {
+        display: none;
+    }
     
     h1 {
         font-size: 30px;
