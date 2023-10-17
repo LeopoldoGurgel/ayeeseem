@@ -11,10 +11,10 @@ function Header({currentPage, handlePageChange}) {
     return (
         <div className="header">
             <div className="banner">
-                <img id="largeBanner" src="/images/sheep1-logo.jpg" alt="Sheep One"/>
-                <img id="smallBanner" src="/images/sheep1no-tilt.jpg" alt="Sheep One"/>
+                <img id="largeBanner" src="images/sheep1-logo.jpg" alt="Sheep One"/>
+                <img id="smallBanner" src="images/sheep1no-tilt.jpg" alt="Sheep One"/>
             </div>
-            <img id="slogan" src="/images/slogan.jpg" alt="The First Step to Yuour Dream Come True is Counting Sheeps" />
+            <img id="slogan" src="images/slogan.jpg" alt="The First Step to Yuour Dream Come True is Counting Sheeps" />
             
             {/* <div className='slogan'>
                 <img src="/images/slogan.jpg" alt="The First Step to Yuour Dream Come True is Counting Sheeps" />

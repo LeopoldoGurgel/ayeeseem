@@ -47,7 +47,7 @@ a {
     
 }
 
-.nav a {
+.nav a, #download {
     font-size: 1.8em;;
     text-decoration: none;
     color: rgb(255, 249, 182);
@@ -61,7 +61,7 @@ a {
 }
 
 
-.nav a.active {
+.nav a.active, #download:hover {
     font-weight: bold; 
     background-color: rgba(239, 255, 90, 1);
     border-radius: 10px;
@@ -241,12 +241,15 @@ button {
 
 .lists {
     display: flex;
-    
+    justify-content: space-around; 
+    margin: 30px auto;   
 }
 
 .lists div {
     margin-right: 50px;
 }
+
+
 
 
 
@@ -347,6 +350,10 @@ button {
     
     aside h3 {
         font-size: 20px;
+    }
+
+    .lists {
+        display: block;
     }
 }
 

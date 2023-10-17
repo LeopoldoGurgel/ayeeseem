@@ -7,6 +7,8 @@ function Resume() {
         <div className="resume">
             <h2 className="title">Resume</h2>
             
+            <a href="Resume.md" id="download" download>Download my Resume file!</a>
+
             <div className="lists">
                 <div>
             <h2>Front-End Proficiencies:</h2>
@@ -17,13 +19,13 @@ function Resume() {
                 <li>JQuery</li>
                 <li>Resposive Design</li>
                 <li>React</li>
-                <li>Boostrap</li>
+                <li>Bootstrap</li>
             </ul>
             </div>
             <div>
             <h2>Back-end Proficiencies:</h2>
             <ul>
-                <li>Apis</li>
+                <li>APIs</li>
                 <li>Node</li>
                 <li>Express</li>
                 <li>MySql/Sequelize</li>
