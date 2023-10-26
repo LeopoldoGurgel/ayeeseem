@@ -2,6 +2,8 @@
 
 // Show images of six projects with links to both the deployed app and Github repo
 
+import Project from "../Project"
+
 function Portfolio() {
     return (
         
@@ -14,40 +16,62 @@ function Portfolio() {
                 <img src="images/DNA.jpeg" alt="Image of a DNA-ds structure."/>
             </div>
 
-            <div  className="proj">
-                <a href="https://medicalinfo-db-397969924a16.herokuapp.com/" ><p className="projTitle">MedInfo App</p></a>
-                <a href="https://github.com/LeopoldoGurgel/Project2" className="githubRepo">GitHub Repo</a>
-                <p className="techs">Session-Save/Handlebars/MySql</p>
-                <img src="images/medApp.jpg" alt="Image of a clinic database app."/>
-            </div>
+            <Project 
+            title="Circuit Chasers"
+            page= "https://aqueous-island-45229-b72fd6868ea4.herokuapp.com/" 
+            repo= "https://github.com/LeopoldoGurgel/circuit-chasers"
+            techs= "MERN stack / Stripe / GraphQL"
+            src="images/circuitChasers.jpg"
+            alt="screenshot of the application landing page"
+            />
 
-            <div className="proj">
-                <a href="https://myeasynotes-f5c4a6c5cb17.herokuapp.com/notes"><p className="projTitle">My Easy Notes</p></a>
-                <a href="https://github.com/LeopoldoGurgel/myeasynotes" className="githubRepo">GitHub Repo</a>
-                <p className="techs">Javascript / Express API</p>                
-                <img src="images/myEasyNotes.png" alt="Landing page of myEasyNotes app."/>                    
-            </div>
+            <Project 
+            title="MedInfo App"
+            page= "https://medicalinfo-db-397969924a16.herokuapp.com/"
+            repo="https://github.com/LeopoldoGurgel/Project2"
+            techs="Session-Save/Handlebars/MySql"
+            src="images/medApp.jpg"
+            alt="Image of a clinic database app."
+            />
 
-            <div  className="proj">
-                <a href="#"><p className="projTitle">My Easy Team Tracker</p></a>
-                <a href="https://github.com/LeopoldoGurgel/myeasyteamtracker" className="githubRepo">GitHub Repo</a>
-                <p className="techs">MySql / InquirerJS</p>              
-                <img src="images/MySqlTeamTracker.jpg" alt="Image of app running on command line."/>                    
-            </div>
+            <Project title="My Easy Notes" 
+            page="https://myeasynotes-f5c4a6c5cb17.herokuapp.com/notes" 
+            repo="https://github.com/LeopoldoGurgel/myeasynotes" 
+            techs="Javascript / Express API" 
+            src="images/myEasyNotes.png" alt="Landing page of myEasyNotes app."
+            />
 
-            <div  className="proj">
-                <a href="#"><p className="projTitle">Coder Social Network (BackEnd)</p></a>
-                <a href="https://github.com/LeopoldoGurgel/coder-social-network" className="githubRepo">GitHub Repo</a>
-                <p className="techs">MongoDB / Express API</p>
-                <img src="images/socialBackEnd.jpg" alt="Database being tested on Insomina app."/>
-            </div>
+            <Project 
+            title="My Easy Team Tracker"
+            page="https://github.com/LeopoldoGurgel/myeasyteamtracker" 
+            repo="https://github.com/LeopoldoGurgel/myeasyteamtracker" 
+            techs="MySql / InquirerJS"
+            src="images/MySqlTeamTracker.jpg" alt="Image of app running on command line."
+            />
 
-            <div  className="proj">
-                <a href=" https://jate-main-emkatffzollheyw4ryao.herokuapp.com/"><p className="projTitle">My Easy Text Editor</p></a>
-                <a href="https://github.com/LeopoldoGurgel/myEasyTextEditor" className="githubRepo">GitHub Repo</a>
-                <p className="techs">Javascript / PWA</p>
-                <img src="images/JATE.jpg" alt="Image of a PWA text editor."/>
-            </div>
+            <Project 
+            title="Coder Social Network"
+            page="https://github.com/LeopoldoGurgel/coder-social-network"
+            repo="https://github.com/LeopoldoGurgel/coder-social-network"
+            techs="MongoDB / Express API (Back End Only"
+            src="images/socialBackEnd.jpg" alt="Database being tested on Insomina app."
+            />
+
+            <Project 
+            title="My Easy Text Editor"
+            page=" https://jate-main-emkatffzollheyw4ryao.herokuapp.com/"
+            repo="https://github.com/LeopoldoGurgel/myEasyTextEditor"
+            techs="Javascript / PWA"
+            src="images/JATE.jpg" alt="Image of a PWA text editor."
+            />
+
+            {/* <Project 
+            title=
+            page=
+            repo=
+            techs=
+
+            /> */}
         </div>
     )
 }
